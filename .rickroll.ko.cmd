@@ -1,0 +1,1 @@
+cmd_/home/kietlac9999/projects/linux_driver/rickroll.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/kietlac9999/projects/linux_driver/rickroll.ko /home/kietlac9999/projects/linux_driver/rickroll.o /home/kietlac9999/projects/linux_driver/rickroll.mod.o;  true
