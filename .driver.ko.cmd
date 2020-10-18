@@ -1,0 +1,1 @@
+cmd_/home/kietlac9999/projects/linux_driver/driver.ko := ld -r -m elf_x86_64  -z max-page-size=0x200000  --build-id  -T ./scripts/module-common.lds -o /home/kietlac9999/projects/linux_driver/driver.ko /home/kietlac9999/projects/linux_driver/driver.o /home/kietlac9999/projects/linux_driver/driver.mod.o;  true

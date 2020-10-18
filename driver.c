@@ -4,14 +4,13 @@
 MODULE_LICENSE("Dual BSD/GPL");
 MODULE_AUTHOR("Hcamal");
 
-int hello_init(void) {
-	printk(KERN_INFO "Hello World Linux kernel");
+static int my_init(void) {
 	return 0;
 }
 
-int hello_exit(void) {
-	printk(KERN_INFO "Goodbye World Linux Kernel");
+static void my_exit(void) {
+	return;
 }
 
-module_init(hello_init);
-module_exit(hello_exit);
+module_init(my_init);
+module_exit(my_exit);
